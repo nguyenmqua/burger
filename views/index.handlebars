@@ -2,14 +2,15 @@
 
 <div class="jumbotron">
   <center>
-  <h1 class="display-2">Burgers</h1>
+        
   </center>
 </div>
 
 <div class="container">
   <div class="row justify-content-md-center">
     <div class="col col-lg-4">
-      <h2>Burgers Waiting</h2>
+      <center><h2>Burgers Waiting</h2></center>
+      
           <ul>
           {{#each burgers}}
             {{#unless devoured}}
@@ -36,7 +37,8 @@
      </div>
 
     <div class="col col-lg-4">
-      <h2>Burgers Devoured!</h2>
+      <center><h2>Burgers Devoured!</h2></center>
+      
         <ul>
           {{#each burgers}}
             {{#if devoured}}

@@ -2,10 +2,24 @@ li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  font-size: 25px;
 }
 ul {
   list-style-position: inside;
   list-style-type: none;
+}
+
+h2{
+  text-decoration: underline;
+  padding: 20px;
+}
+
+.jumbotron{
+  height: 230px;
+  width: 100%;
+  background: whitesmoke url("../image/burgerheader.jpg") no-repeat -100px 0px;
+  background-size: 1500px 250px;
+  opacity: 0.5;
 }
 
 .label {
